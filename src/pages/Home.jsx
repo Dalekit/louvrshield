@@ -33,7 +33,7 @@ export default function Home() {
                 Find a retailer near you and discover how louvred roller shutters can upgrade your home or business.
               </p>
               <Link to={createPageUrl("Contact")}>
-                <Button size="lg" className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold px-10 h-14 text-base rounded-xl shadow-lg shadow-amber-500/20">
+                <Button size="lg" className="bg-slate-600 hover:bg-slate-500 text-white font-semibold px-10 h-14 text-base rounded-xl shadow-lg shadow-slate-500/20">
                   Find a Retailer
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>

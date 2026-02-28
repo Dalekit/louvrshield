@@ -49,7 +49,7 @@ export default function Contact() {
               className="lg:col-span-2 space-y-8"
             >
               <div>
-                <p className="text-sm font-semibold tracking-widest uppercase text-amber-600 mb-3">Contact</p>
+                <p className="text-sm font-semibold tracking-widest uppercase text-slate-600 mb-3">Contact</p>
                 <h2 className="text-3xl font-bold text-slate-900">
                   We'd Love to Hear From You
                 </h2>
@@ -65,8 +65,8 @@ export default function Contact() {
                   { icon: MapPin, label: "Coverage", value: "Australia Wide" },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-xl bg-amber-50 flex items-center justify-center flex-shrink-0">
-                      <item.icon className="w-5 h-5 text-amber-600" />
+                    <div className="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center flex-shrink-0">
+                      <item.icon className="w-5 h-5 text-slate-600" />
                     </div>
                     <div>
                       <p className="text-sm font-medium text-slate-400">{item.label}</p>
@@ -105,7 +105,7 @@ export default function Contact() {
                         value={formData.name}
                         onChange={(e) => handleChange("name", e.target.value)}
                         required
-                        className="h-12 rounded-xl border-slate-200 focus:border-amber-400 focus:ring-amber-400/20"
+                        className="h-12 rounded-xl border-slate-200 focus:border-slate-400 focus:ring-slate-400/20"
                       />
                     </div>
                     <div className="space-y-2">
@@ -117,7 +117,7 @@ export default function Contact() {
                         value={formData.email}
                         onChange={(e) => handleChange("email", e.target.value)}
                         required
-                        className="h-12 rounded-xl border-slate-200 focus:border-amber-400 focus:ring-amber-400/20"
+                        className="h-12 rounded-xl border-slate-200 focus:border-slate-400 focus:ring-slate-400/20"
                       />
                     </div>
                   </div>
@@ -131,7 +131,7 @@ export default function Contact() {
                         placeholder="04XX XXX XXX"
                         value={formData.phone}
                         onChange={(e) => handleChange("phone", e.target.value)}
-                        className="h-12 rounded-xl border-slate-200 focus:border-amber-400 focus:ring-amber-400/20"
+                        className="h-12 rounded-xl border-slate-200 focus:border-slate-400 focus:ring-slate-400/20"
                       />
                     </div>
                     <div className="space-y-2">
@@ -141,7 +141,7 @@ export default function Contact() {
                         placeholder="2000"
                         value={formData.postcode}
                         onChange={(e) => handleChange("postcode", e.target.value)}
-                        className="h-12 rounded-xl border-slate-200 focus:border-amber-400 focus:ring-amber-400/20"
+                        className="h-12 rounded-xl border-slate-200 focus:border-slate-400 focus:ring-slate-400/20"
                       />
                     </div>
                   </div>
@@ -149,7 +149,7 @@ export default function Contact() {
                   <div className="space-y-2">
                     <Label className="text-slate-700 font-medium">I'm interested in</Label>
                     <Select value={formData.interest} onValueChange={(value) => handleChange("interest", value)}>
-                      <SelectTrigger className="h-12 rounded-xl border-slate-200 focus:border-amber-400 focus:ring-amber-400/20">
+                      <SelectTrigger className="h-12 rounded-xl border-slate-200 focus:border-slate-400 focus:ring-slate-400/20">
                         <SelectValue placeholder="Select your application" />
                       </SelectTrigger>
                       <SelectContent>
@@ -168,14 +168,14 @@ export default function Contact() {
                       placeholder="Tell us about your project..."
                       value={formData.message}
                       onChange={(e) => handleChange("message", e.target.value)}
-                      className="min-h-[120px] rounded-xl border-slate-200 focus:border-amber-400 focus:ring-amber-400/20"
+                      className="min-h-[120px] rounded-xl border-slate-200 focus:border-slate-400 focus:ring-slate-400/20"
                     />
                   </div>
 
                   <Button
                     type="submit"
                     size="lg"
-                    className="w-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold h-14 text-base rounded-xl shadow-lg shadow-amber-500/20 transition-all hover:shadow-amber-500/40"
+                    className="w-full bg-slate-600 hover:bg-slate-500 text-white font-semibold h-14 text-base rounded-xl shadow-lg shadow-slate-500/20 transition-all hover:shadow-slate-500/40"
                   >
                     <Send className="mr-2 w-5 h-5" />
                     Submit Enquiry

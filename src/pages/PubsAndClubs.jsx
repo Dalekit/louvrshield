@@ -62,7 +62,7 @@ export default function PubsAndClubs() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <p className="text-sm font-semibold tracking-widest uppercase text-amber-600 mb-3">Commercial Benefits</p>
+            <p className="text-sm font-semibold tracking-widest uppercase text-slate-600 mb-3">Commercial Benefits</p>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
               Built for Hospitality
             </h2>
@@ -87,7 +87,7 @@ export default function PubsAndClubs() {
               transition={{ duration: 0.6 }}
               className="order-2 lg:order-1"
             >
-              <p className="text-sm font-semibold tracking-widest uppercase text-amber-600 mb-3">Gaming & Pokies</p>
+              <p className="text-sm font-semibold tracking-widest uppercase text-slate-600 mb-3">Gaming & Pokies</p>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
                 Compliant Privacy Without Sacrificing Air Quality
               </h2>
@@ -97,18 +97,18 @@ export default function PubsAndClubs() {
               <div className="mt-8 p-6 rounded-xl bg-slate-50 border border-slate-100">
                 <div className="grid grid-cols-2 gap-6">
                   <div>
-                    <p className="text-3xl font-bold text-amber-600">100%</p>
+                    <p className="text-3xl font-bold text-slate-600">100%</p>
                     <p className="text-sm text-slate-500 mt-1">Privacy when closed</p>
                   </div>
                   <div>
-                    <p className="text-3xl font-bold text-amber-600">Open</p>
+                    <p className="text-3xl font-bold text-slate-600">Open</p>
                     <p className="text-sm text-slate-500 mt-1">Airflow with louvres angled</p>
                   </div>
                 </div>
               </div>
               <div className="mt-8">
                 <Link to={createPageUrl("Contact")}>
-                  <Button size="lg" className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold px-8 h-12 rounded-xl">
+                  <Button size="lg" className="bg-slate-600 hover:bg-slate-500 text-white font-semibold px-8 h-12 rounded-xl">
                     Get a Commercial Quote
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
@@ -123,7 +123,7 @@ export default function PubsAndClubs() {
               className="order-1 lg:order-2"
             >
               <div className="relative">
-                <div className="absolute -inset-3 bg-amber-100 rounded-3xl" />
+                <div className="absolute -inset-3 bg-slate-100 rounded-3xl" />
                 <img
                   src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=700&q=80"
                   alt="Bar and club atmosphere"

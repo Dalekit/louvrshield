@@ -62,7 +62,7 @@ export default function HomeOwners() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <p className="text-sm font-semibold tracking-widest uppercase text-amber-600 mb-3">Benefits</p>
+            <p className="text-sm font-semibold tracking-widest uppercase text-slate-600 mb-3">Benefits</p>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
               Why Homeowners Love It
             </h2>
@@ -87,7 +87,7 @@ export default function HomeOwners() {
               transition={{ duration: 0.6 }}
             >
               <div className="relative">
-                <div className="absolute -inset-3 bg-amber-100 rounded-3xl" />
+                <div className="absolute -inset-3 bg-slate-100 rounded-3xl" />
                 <img
                   src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&q=80"
                   alt="Bright interior with natural light"
@@ -101,7 +101,7 @@ export default function HomeOwners() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <p className="text-sm font-semibold tracking-widest uppercase text-amber-600 mb-3">Seasonal Flexibility</p>
+              <p className="text-sm font-semibold tracking-widest uppercase text-slate-600 mb-3">Seasonal Flexibility</p>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
                 Nothing on Your Windows When You Don't Want It
               </h2>
@@ -110,7 +110,7 @@ export default function HomeOwners() {
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <Link to={createPageUrl("Contact")}>
-                  <Button size="lg" className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold px-8 h-12 rounded-xl">
+                  <Button size="lg" className="bg-slate-600 hover:bg-slate-500 text-white font-semibold px-8 h-12 rounded-xl">
                     Find a Retailer
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>

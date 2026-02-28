@@ -45,7 +45,7 @@ export default function Layout({ children, currentPageName }) {
                   to={createPageUrl(link.page)}
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                     currentPageName === link.page
-                      ? "text-slate-300 bg-amber-400/10"
+                      ? "text-slate-300 bg-slate-400/10"
                       : "text-slate-400 hover:text-white hover:bg-white/5"
                   }`}
                 >
@@ -53,7 +53,7 @@ export default function Layout({ children, currentPageName }) {
                 </Link>
               ))}
               <Link to={createPageUrl("Contact")}>
-                <Button size="sm" className="ml-4 bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold rounded-lg">
+                <Button size="sm" className="ml-4 bg-slate-600 hover:bg-slate-500 text-white font-semibold rounded-lg">
                   Find a Retailer
                 </Button>
               </Link>
@@ -86,7 +86,7 @@ export default function Layout({ children, currentPageName }) {
                     onClick={() => setMobileOpen(false)}
                     className={`block px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
                       currentPageName === link.page
-                        ? "text-slate-300 bg-amber-400/10"
+                        ? "text-slate-300 bg-slate-400/10"
                         : "text-slate-400 hover:text-white hover:bg-white/5"
                     }`}
                   >
@@ -98,7 +98,7 @@ export default function Layout({ children, currentPageName }) {
                   onClick={() => setMobileOpen(false)}
                   className="block mt-4"
                 >
-                  <Button className="w-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold rounded-lg">
+                  <Button className="w-full bg-slate-600 hover:bg-slate-500 text-white font-semibold rounded-lg">
                     Find a Retailer
                   </Button>
                 </Link>
