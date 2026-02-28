@@ -9,7 +9,7 @@ export default function HeroSection() {
     <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800">
       {/* Abstract geometric overlay */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-96 h-96 bg-amber-500 rounded-full blur-3xl" />
+        <div className="absolute top-20 left-10 w-96 h-96 bg-slate-400 rounded-full blur-3xl" />
         <div className="absolute bottom-20 right-10 w-80 h-80 bg-slate-400 rounded-full blur-3xl" />
       </div>
       
@@ -35,10 +35,10 @@ export default function HeroSection() {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3, duration: 0.6 }}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-amber-500/30 bg-amber-500/10 mb-8"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-amber-500/30 bg-slate-400/10 mb-8"
             >
               <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
-              <span className="text-amber-300 text-sm font-medium tracking-wide uppercase">Redefining Window Protection</span>
+              <span className="text-slate-300 text-sm font-medium tracking-wide uppercase">Redefining Window Protection</span>
             </motion.div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.1] tracking-tight">
@@ -58,7 +58,7 @@ export default function HeroSection() {
 
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <Link to={createPageUrl("HomeOwners")}>
-                <Button size="lg" className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold px-8 h-14 text-base rounded-xl shadow-lg shadow-amber-500/20 transition-all hover:shadow-amber-500/40">
+                <Button size="lg" className="bg-slate-400 hover:bg-amber-400 text-slate-950 font-semibold px-8 h-14 text-base rounded-xl shadow-lg shadow-amber-500/20 transition-all hover:shadow-amber-500/40">
                   Explore for Homes
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
@@ -92,8 +92,8 @@ export default function HeroSection() {
                 className="absolute -bottom-6 -left-6 bg-white rounded-xl p-4 shadow-xl"
               >
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-lg bg-amber-50 flex items-center justify-center">
-                    <Sun className="w-5 h-5 text-amber-600" />
+                  <div className="w-10 h-10 rounded-lg bg-slate-100 flex items-center justify-center">
+                    <Sun className="w-5 h-5 text-slate-600" />
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-slate-900">Heat Reduction</p>
@@ -121,8 +121,8 @@ export default function HeroSection() {
               key={i}
               className="flex items-center gap-4 p-5 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm"
             >
-              <div className="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center flex-shrink-0">
-                <feature.icon className="w-6 h-6 text-amber-400" />
+              <div className="w-12 h-12 rounded-xl bg-slate-400/10 flex items-center justify-center flex-shrink-0">
+                <feature.icon className="w-6 h-6 text-slate-300" />
               </div>
               <div>
                 <p className="font-semibold text-white">{feature.title}</p>
