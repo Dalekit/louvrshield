@@ -33,7 +33,7 @@ export default function Layout({ children, currentPageName }) {
           <div className="flex items-center justify-between h-16 md:h-20">
             <Link to={createPageUrl("Home")} className="flex items-center gap-2">
               <span className="text-xl font-bold text-white tracking-tight">
-                Louvr<span className="text-amber-400">Shield</span>
+                Louvr<span className="text-slate-300">Shield</span>
               </span>
             </Link>
 
@@ -45,7 +45,7 @@ export default function Layout({ children, currentPageName }) {
                   to={createPageUrl(link.page)}
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                     currentPageName === link.page
-                      ? "text-amber-400 bg-amber-400/10"
+                      ? "text-slate-300 bg-amber-400/10"
                       : "text-slate-400 hover:text-white hover:bg-white/5"
                   }`}
                 >
@@ -86,7 +86,7 @@ export default function Layout({ children, currentPageName }) {
                     onClick={() => setMobileOpen(false)}
                     className={`block px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
                       currentPageName === link.page
-                        ? "text-amber-400 bg-amber-400/10"
+                        ? "text-slate-300 bg-amber-400/10"
                         : "text-slate-400 hover:text-white hover:bg-white/5"
                     }`}
                   >

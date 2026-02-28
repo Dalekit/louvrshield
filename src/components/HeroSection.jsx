@@ -43,7 +43,7 @@ export default function HeroSection() {
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.1] tracking-tight">
               The Perfect Blend of{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-300">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-300 to-slate-200">
                 Louvres
               </span>{" "}
               &{" "}
