@@ -15,17 +15,17 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">Solutions</h4>
             <div className="flex flex-col gap-3">
-              <Link to={createPageUrl("HomeOwners")} className="text-slate-500 hover:text-amber-400 transition-colors text-sm">
+              <Link to={createPageUrl("HomeOwners")} className="text-slate-500 hover:text-slate-300 transition-colors text-sm">
                 Home Owners
               </Link>
-              <Link to={createPageUrl("PubsAndClubs")} className="text-slate-500 hover:text-amber-400 transition-colors text-sm">
+              <Link to={createPageUrl("PubsAndClubs")} className="text-slate-500 hover:text-slate-300 transition-colors text-sm">
                 Pubs & Clubs
               </Link>
             </div>
           </div>
           <div>
             <h4 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">Get in Touch</h4>
-            <Link to={createPageUrl("Contact")} className="text-slate-500 hover:text-amber-400 transition-colors text-sm">
+            <Link to={createPageUrl("Contact")} className="text-slate-500 hover:text-slate-300 transition-colors text-sm">
               Find a Retailer
             </Link>
           </div>

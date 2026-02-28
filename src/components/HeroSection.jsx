@@ -58,7 +58,7 @@ export default function HeroSection() {
 
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <Link to={createPageUrl("HomeOwners")}>
-                <Button size="lg" className="bg-slate-400 hover:bg-amber-400 text-slate-950 font-semibold px-8 h-14 text-base rounded-xl shadow-lg shadow-amber-500/20 transition-all hover:shadow-amber-500/40">
+                <Button size="lg" className="bg-slate-400 hover:bg-amber-400 text-slate-950 font-semibold px-8 h-14 text-base rounded-xl shadow-lg shadow-slate-500/20 transition-all hover:shadow-slate-500/40">
                   Explore for Homes
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>

@@ -4,7 +4,7 @@ export default function PageHero({ badge, title, titleHighlight, description, im
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 py-24 md:py-32">
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 right-20 w-72 h-72 bg-amber-500 rounded-full blur-3xl" />
+        <div className="absolute top-10 right-20 w-72 h-72 bg-slate-400 rounded-full blur-3xl" />
         <div className="absolute bottom-10 left-10 w-56 h-56 bg-slate-400 rounded-full blur-3xl" />
       </div>
       <div className="absolute inset-0 opacity-[0.03]">
@@ -20,14 +20,14 @@ export default function PageHero({ badge, title, titleHighlight, description, im
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-amber-500/30 bg-amber-500/10 mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-slate-400/30 bg-slate-400/10 mb-6">
               <span className="w-2 h-2 rounded-full bg-amber-400" />
-              <span className="text-amber-300 text-sm font-medium tracking-wide uppercase">{badge}</span>
+              <span className="text-slate-300 text-sm font-medium tracking-wide uppercase">{badge}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.15] tracking-tight">
               {title}{" "}
               {titleHighlight && (
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-300">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-300 to-slate-200">
                   {titleHighlight}
                 </span>
               )}
@@ -45,7 +45,7 @@ export default function PageHero({ badge, title, titleHighlight, description, im
               className="hidden lg:block"
             >
               <div className="relative">
-                <div className="absolute -inset-3 bg-gradient-to-r from-amber-500/20 to-slate-500/10 rounded-3xl blur-xl" />
+                <div className="absolute -inset-3 bg-gradient-to-r from-slate-400/20 to-slate-500/10 rounded-3xl blur-xl" />
                 <img
                   src={imageSrc}
                   alt={imageAlt}

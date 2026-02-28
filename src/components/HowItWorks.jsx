@@ -7,16 +7,16 @@ const steps = [
     title: "Closed Position",
     description: "Full protection from sun, rain, and intruders. Complete privacy with the shutter fully lowered and louvres closed.",
     color: "bg-slate-900 text-white",
-    iconBg: "bg-amber-500/20",
-    iconColor: "text-amber-400",
+    iconBg: "bg-slate-400/20",
+    iconColor: "text-slate-400",
   },
   {
     icon: Wind,
     title: "Louvres Open",
     description: "In the home position, open the louvred blades to let fresh air flow through while maintaining shade and adjustable privacy.",
     color: "bg-amber-50 text-slate-900",
-    iconBg: "bg-amber-500/10",
-    iconColor: "text-amber-600",
+    iconBg: "bg-slate-400/10",
+    iconColor: "text-slate-600",
   },
   {
     icon: Maximize2,
@@ -38,7 +38,7 @@ export default function HowItWorks() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <p className="text-sm font-semibold tracking-widest uppercase text-amber-600 mb-3">How It Works</p>
+          <p className="text-sm font-semibold tracking-widest uppercase text-slate-600 mb-3">How It Works</p>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
             Three Modes. One System.
           </h2>
