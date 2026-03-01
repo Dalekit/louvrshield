@@ -87,7 +87,7 @@ export default function PubsAndClubs() {
               transition={{ duration: 0.6 }}
               className="order-2 lg:order-1"
             >
-              <p className="text-sm font-semibold tracking-widest uppercase text-slate-600 mb-3">Gaming & Pokies</p>
+              <p className="text-sm font-semibold tracking-widest uppercase text-slate-600 mb-3">Gaming & Poker Machines</p>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
                 Compliant Privacy Without Sacrificing Air Quality
               </h2>
