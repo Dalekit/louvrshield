@@ -20,8 +20,8 @@ export default function PageHero({ badge, title, titleHighlight, description, im
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-slate-400/30 bg-slate-400/10 mb-6">
-              <span className="w-2 h-2 rounded-full bg-amber-400" />
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#6abf4b]/40 bg-[#6abf4b]/10 mb-6">
+              <span className="w-2 h-2 rounded-full bg-[#6abf4b]" />
               <span className="text-slate-300 text-sm font-medium tracking-wide uppercase">{badge}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.15] tracking-tight">
@@ -45,7 +45,7 @@ export default function PageHero({ badge, title, titleHighlight, description, im
               className="hidden lg:block"
             >
               <div className="relative">
-                <div className="absolute -inset-3 bg-gradient-to-r from-slate-400/20 to-slate-500/10 rounded-3xl blur-xl" />
+                <div className="absolute -inset-3 bg-gradient-to-r from-[#6abf4b]/20 to-blue-500/10 rounded-3xl blur-xl" />
                 <img
                   src={imageSrc}
                   alt={imageAlt}
