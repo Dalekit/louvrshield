@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 
 export default function PageHero({ badge, title, titleHighlight, description, imageSrc, imageAlt }) {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 py-24 md:py-32">
+    <section className="relative overflow-hidden bg-gradient-to-br from-[#0a1f44] via-[#0d2a5e] to-[#0a3d6b] py-24 md:py-32">
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 right-20 w-72 h-72 bg-slate-400 rounded-full blur-3xl" />
-        <div className="absolute bottom-10 left-10 w-56 h-56 bg-slate-400 rounded-full blur-3xl" />
+        <div className="absolute top-10 right-20 w-72 h-72 bg-[#6abf4b] rounded-full blur-3xl" />
+        <div className="absolute bottom-10 left-10 w-56 h-56 bg-blue-400 rounded-full blur-3xl" />
       </div>
       <div className="absolute inset-0 opacity-[0.03]">
         {Array.from({ length: 15 }).map((_, i) => (
@@ -27,7 +27,7 @@ export default function PageHero({ badge, title, titleHighlight, description, im
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.15] tracking-tight">
               {title}{" "}
               {titleHighlight && (
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-300 to-slate-200">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6abf4b] to-[#9fdc7a]">
                   {titleHighlight}
                 </span>
               )}

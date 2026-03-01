@@ -20,10 +20,10 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 to-slate-800 p-12 md:p-16 text-center"
+            className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#0a1f44] to-[#0a3d6b] p-12 md:p-16 text-center"
           >
             <div className="absolute inset-0 opacity-10">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500 rounded-full blur-3xl" />
+              <div className="absolute top-0 right-0 w-64 h-64 bg-[#6abf4b] rounded-full blur-3xl" />
             </div>
             <div className="relative z-10">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -33,7 +33,7 @@ export default function Home() {
                 Find a retailer near you and discover how louvred roller shutters can upgrade your home or business.
               </p>
               <Link to={createPageUrl("Contact")}>
-                <Button size="lg" className="bg-slate-600 hover:bg-slate-500 text-white font-semibold px-10 h-14 text-base rounded-xl shadow-lg shadow-slate-500/20">
+                <Button size="lg" className="bg-[#6abf4b] hover:bg-[#5aaf3b] text-white font-semibold px-10 h-14 text-base rounded-xl shadow-lg shadow-green-500/30">
                   Find a Retailer
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>

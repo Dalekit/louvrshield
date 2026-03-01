@@ -3,11 +3,13 @@ import { createPageUrl } from "@/utils";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-950 border-t border-slate-800">
+    <footer className="bg-[#0a1f44] border-t border-blue-900">
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-16">
         <div className="grid md:grid-cols-3 gap-12">
           <div>
-            <h3 className="text-xl font-bold text-white mb-2">LouvrShield</h3>
+            <div className="mb-2">
+              <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69a24256ad087689350ab323/1332f4036_tempImage3uyTon.jpg" alt="LouvrShield" className="h-12 w-auto object-contain" />
+            </div>
             <p className="text-slate-500 text-sm leading-relaxed max-w-xs">
               The next generation of roller shutters — combining louvred blade technology with complete retractability.
             </p>
@@ -30,7 +32,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="mt-12 pt-8 border-t border-slate-800/50 text-center">
+        <div className="mt-12 pt-8 border-t border-blue-900/50 text-center">
           <p className="text-slate-600 text-sm">© {new Date().getFullYear()} LouvrShield. All rights reserved.</p>
         </div>
       </div>
