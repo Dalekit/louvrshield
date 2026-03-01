@@ -6,11 +6,11 @@ import { createPageUrl } from "@/utils";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800">
+    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-[#0a1f44] via-[#0d2a5e] to-[#0a3d6b]">
       {/* Abstract geometric overlay */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-96 h-96 bg-slate-400 rounded-full blur-3xl" />
-        <div className="absolute bottom-20 right-10 w-80 h-80 bg-slate-400 rounded-full blur-3xl" />
+        <div className="absolute top-20 left-10 w-96 h-96 bg-[#6abf4b] rounded-full blur-3xl" />
+        <div className="absolute bottom-20 right-10 w-80 h-80 bg-blue-400 rounded-full blur-3xl" />
       </div>
       
       {/* Louvre line pattern */}
@@ -35,19 +35,19 @@ export default function HeroSection() {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3, duration: 0.6 }}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-amber-500/30 bg-slate-400/10 mb-8"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#6abf4b]/40 bg-[#6abf4b]/10 mb-8"
             >
-              <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
+              <span className="w-2 h-2 rounded-full bg-[#6abf4b] animate-pulse" />
               <span className="text-slate-300 text-sm font-medium tracking-wide uppercase">Redefining Window Protection</span>
             </motion.div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.1] tracking-tight">
               The Perfect Blend of{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-300 to-slate-200">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6abf4b] to-[#9fdc7a]">
                 Louvres
               </span>{" "}
               &{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-300 to-white">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-white">
                 Roller Shutters
               </span>
             </h1>
@@ -58,13 +58,13 @@ export default function HeroSection() {
 
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <Link to={createPageUrl("HomeOwners")}>
-                <Button size="lg" className="bg-slate-400 hover:bg-amber-400 text-slate-950 font-semibold px-8 h-14 text-base rounded-xl shadow-lg shadow-slate-500/20 transition-all hover:shadow-slate-500/40">
+                <Button size="lg" className="bg-[#6abf4b] hover:bg-[#5aaf3b] text-white font-semibold px-8 h-14 text-base rounded-xl shadow-lg shadow-green-500/30 transition-all hover:shadow-green-500/50">
                   Explore for Homes
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
               <Link to={createPageUrl("PubsAndClubs")}>
-                <Button size="lg" variant="outline" className="border-slate-600 text-slate-300 hover:bg-slate-800 hover:text-white px-8 h-14 text-base rounded-xl">
+                <Button size="lg" variant="outline" className="border-white/30 text-slate-200 hover:bg-white/10 hover:text-white px-8 h-14 text-base rounded-xl">
                   Commercial Solutions
                 </Button>
               </Link>
@@ -78,7 +78,7 @@ export default function HeroSection() {
             className="hidden lg:block"
           >
             <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-r from-amber-500/20 to-slate-500/20 rounded-3xl blur-2xl" />
+              <div className="absolute -inset-4 bg-gradient-to-r from-[#6abf4b]/20 to-blue-500/20 rounded-3xl blur-2xl" />
               <img
                 src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
                 alt="Modern home with premium window shutters"
@@ -92,8 +92,8 @@ export default function HeroSection() {
                 className="absolute -bottom-6 -left-6 bg-white rounded-xl p-4 shadow-xl"
               >
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-lg bg-slate-100 flex items-center justify-center">
-                    <Sun className="w-5 h-5 text-slate-600" />
+                  <div className="w-10 h-10 rounded-lg bg-green-50 flex items-center justify-center">
+                    <Sun className="w-5 h-5 text-[#6abf4b]" />
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-slate-900">Heat Reduction</p>
@@ -121,8 +121,8 @@ export default function HeroSection() {
               key={i}
               className="flex items-center gap-4 p-5 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm"
             >
-              <div className="w-12 h-12 rounded-xl bg-slate-400/10 flex items-center justify-center flex-shrink-0">
-                <feature.icon className="w-6 h-6 text-slate-300" />
+              <div className="w-12 h-12 rounded-xl bg-[#6abf4b]/20 flex items-center justify-center flex-shrink-0">
+                <feature.icon className="w-6 h-6 text-[#6abf4b]" />
               </div>
               <div>
                 <p className="font-semibold text-white">{feature.title}</p>

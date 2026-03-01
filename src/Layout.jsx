@@ -78,7 +78,7 @@ export default function Layout({ children, currentPageName }) {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              className="md:hidden bg-slate-950/95 backdrop-blur-xl border-t border-white/5 overflow-hidden"
+              className="md:hidden bg-[#0a1f44]/95 backdrop-blur-xl border-t border-white/10 overflow-hidden"
             >
               <div className="px-6 py-4 space-y-1">
                 {navLinks.map((link) => (
