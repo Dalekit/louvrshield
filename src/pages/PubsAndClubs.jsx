@@ -12,7 +12,7 @@ const features = [
   {
     icon: EyeOff,
     title: "Block Outside Visibility",
-    description: "Perfect for pokies areas and gaming rooms where compliance requires blocking visibility from outside in. Keep interiors private while staying compliant."
+    description: "Perfect for poker machines areas and gaming rooms where compliance requires blocking visibility from outside in. Keep interiors private while staying compliant."
   },
   {
     icon: Wind,
@@ -48,7 +48,7 @@ export default function PubsAndClubs() {
         badge="Commercial"
         title="Privacy, Airflow & Compliance for"
         titleHighlight="Pubs & Clubs"
-        description="Block visibility into pokies and gaming areas while maintaining ventilation for smokers sections. The perfect balance of privacy, fresh air, and regulatory compliance."
+        description="Block visibility into poker machines and gaming areas while maintaining ventilation for smokers sections. The perfect balance of privacy, fresh air, and regulatory compliance."
         imageSrc="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&q=80"
         imageAlt="Modern pub and bar interior"
       />
@@ -92,7 +92,7 @@ export default function PubsAndClubs() {
                 Compliant Privacy Without Sacrificing Air Quality
               </h2>
               <p className="mt-6 text-slate-500 text-lg leading-relaxed">
-                Gaming regulations require that pokies areas are not visible from the street. Traditional solutions block visibility but trap heat and stale air. Our louvred roller shutters solve both problems — solid privacy when closed, adjustable airflow when the louvres are angled open.
+                Gaming regulations require that poker machines areas are not visible from the street. Traditional solutions block visibility but trap heat and stale air. Our louvred roller shutters solve both problems — solid privacy when closed, adjustable airflow when the louvres are angled open.
               </p>
               <div className="mt-8 p-6 rounded-xl bg-slate-50 border border-slate-100">
                 <div className="grid grid-cols-2 gap-6">
