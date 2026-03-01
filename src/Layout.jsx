@@ -28,13 +28,15 @@ export default function Layout({ children, currentPageName }) {
       `}</style>
 
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-xl border-b border-white/5">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a1f44]/90 backdrop-blur-xl border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="flex items-center justify-between h-16 md:h-20">
             <Link to={createPageUrl("Home")} className="flex items-center gap-2">
-              <span className="text-xl font-bold text-white tracking-tight">
-                Louvr<span className="text-slate-300">Shield</span>
-              </span>
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69a24256ad087689350ab323/1332f4036_tempImage3uyTon.jpg"
+                alt="LouvrShield Logo"
+                className="h-10 w-auto object-contain"
+              />
             </Link>
 
             {/* Desktop Nav */}
@@ -45,15 +47,15 @@ export default function Layout({ children, currentPageName }) {
                   to={createPageUrl(link.page)}
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                     currentPageName === link.page
-                      ? "text-slate-300 bg-slate-400/10"
-                      : "text-slate-400 hover:text-white hover:bg-white/5"
+                      ? "text-[#6abf4b] bg-white/10"
+                      : "text-slate-200 hover:text-[#6abf4b] hover:bg-white/5"
                   }`}
                 >
                   {link.label}
                 </Link>
               ))}
               <Link to={createPageUrl("Contact")}>
-                <Button size="sm" className="ml-4 bg-slate-600 hover:bg-slate-500 text-white font-semibold rounded-lg">
+                <Button size="sm" className="ml-4 bg-[#6abf4b] hover:bg-[#5aaf3b] text-white font-semibold rounded-lg">
                   Find a Retailer
                 </Button>
               </Link>
@@ -86,8 +88,8 @@ export default function Layout({ children, currentPageName }) {
                     onClick={() => setMobileOpen(false)}
                     className={`block px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
                       currentPageName === link.page
-                        ? "text-slate-300 bg-slate-400/10"
-                        : "text-slate-400 hover:text-white hover:bg-white/5"
+                        ? "text-[#6abf4b] bg-white/10"
+                        : "text-slate-200 hover:text-[#6abf4b] hover:bg-white/5"
                     }`}
                   >
                     {link.label}
@@ -98,7 +100,7 @@ export default function Layout({ children, currentPageName }) {
                   onClick={() => setMobileOpen(false)}
                   className="block mt-4"
                 >
-                  <Button className="w-full bg-slate-600 hover:bg-slate-500 text-white font-semibold rounded-lg">
+                  <Button className="w-full bg-[#6abf4b] hover:bg-[#5aaf3b] text-white font-semibold rounded-lg">
                     Find a Retailer
                   </Button>
                 </Link>
